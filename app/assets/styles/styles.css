@@ -1,0 +1,11 @@
+body {
+  padding: 25px;
+  columns: 300px 2px;
+}
+
+.box {
+  a {
+    color: blue;
+    padding: 10px;
+  }
+}
