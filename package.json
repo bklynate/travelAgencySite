@@ -7,10 +7,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.5.0",
-<<<<<<< HEAD
     "browser-sync": "^2.16.1",
-=======
->>>>>>> ce03a7a8edb21546728f1a8b2b606b6259fd3e9c
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.2.0",
     "gulp-watch": "^4.3.10",
