@@ -434,6 +434,13 @@ img {
 .btn {
  background-color: #2f5572;
  color: #fff;
+ text-decoration: none;
+ padding: 1.2rem;
+ display: inline-block;
+}
+
+.btn--orange {
+  background-color: ;
 }
 
 .large-hero {
