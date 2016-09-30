@@ -5,6 +5,7 @@ var autoprefixer = require('autoprefixer');
 var addVariablesToCss = require('postcss-simple-vars');
 var nestedCssStructures = require('postcss-nested');
 var cssImport = require('postcss-import');
+var browserSync = require('browser-sync').create();
 
 gulp.task('default', function(){
   console.log("hooray, you created a gulp task");
@@ -22,11 +23,18 @@ gulp.task('styles', function(){
 
 gulp.task('watch', function(){
 
+  browserSync.init({
+    server: {
+      baseDir: "app"
+    }
+  });
+
   watch('./app/index.html', function(){
-    gulp.start('html');
-  })
+    browserSync.reload();
+  });
 
   watch('./app/assets/styles/**/*.css', function(){
     gulp.start('styles');
-  })
-})
+  });
+
+});

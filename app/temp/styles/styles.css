@@ -432,15 +432,20 @@ img {
 }
 
 .btn {
- background-color: #2f5572;
- color: #fff;
- text-decoration: none;
- padding: 1.2rem;
- display: inline-block;
+  background-color: #2f5572;
+  color: #fff;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
 }
 
 .btn--orange {
-  background-color: ;
+  background-color: #d59541;
+}
+
+.btn--large {
+  font-size: 1.25rem;
+  padding: 1.1rem 1.9rem;
 }
 
 .large-hero {
