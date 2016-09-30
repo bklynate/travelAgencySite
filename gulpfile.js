@@ -5,7 +5,10 @@ var autoprefixer = require('autoprefixer');
 var addVariablesToCss = require('postcss-simple-vars');
 var nestedCssStructures = require('postcss-nested');
 var cssImport = require('postcss-import');
+<<<<<<< HEAD
 var browserSync = require('browser-sync').create();
+=======
+>>>>>>> ce03a7a8edb21546728f1a8b2b606b6259fd3e9c
 
 gulp.task('default', function(){
   console.log("hooray, you created a gulp task");
@@ -36,4 +39,5 @@ gulp.task('watch', function(){
   watch('./app/assets/styles/**/*.css', function(){
     gulp.start('styles');
   });
-})
+  
+});
