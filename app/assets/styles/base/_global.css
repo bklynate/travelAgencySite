@@ -1,9 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  font: normal 100%;
 }
 
 img {
   max-width: 100%;
-  heigth: auto;
+  height: auto;
 }

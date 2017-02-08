@@ -7,14 +7,6 @@ var addNestedCssStructures = require('postcss-nested');
 var cssImport = require('postcss-import');
 var browserSync = require('browser-sync').create();
 
-gulp.task('default', function(){
-  console.log("hooray, you created a gulp task");
-});
-
-// gulp.task('html', function(){
-//   console.log("Imagine some useful HTML magic happening here!");
-// });
-
 gulp.task('styles', function(){
   return gulp.src('./app/assets/styles/styles.css')
     .pipe(postcss([cssImport,addVariablesToCss,addNestedCssStructures,autoprefixer]))
