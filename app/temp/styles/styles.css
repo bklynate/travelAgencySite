@@ -432,6 +432,24 @@ img {
   height: auto;
 }
 
+.btn {
+  color: #fff;
+  background-color: #2f5572;
+  padding: 0.75rem 1.2rem;
+  display: inline-block;
+}
+
+/* so elements are 'aware' of its padding*/
+
+.btn--orange {
+  background-color: #d59541;
+}
+
+.btn--large {
+  font-size: 1.25rem;
+  padding: 1.1rem 1.9rem;
+}
+
 .large-hero {
   position: relative;
 }
@@ -449,11 +467,23 @@ img {
 .large-hero__title {
   font-weight: 300;
   color: #2f5572;
-  font-size: 4.8rem;
+  font-size: 5.8rem;
+  margin: 0;
 }
 
 .large-hero__subtitle {
   font-weight: 300;
   color: #2f5572;
   font-size: 2.9rem;
+  margin: 0;
+}
+
+.large-hero__description {
+  max-width: 30rem;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.875rem;
+  font-weight: 100;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.1)
 }
